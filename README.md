@@ -52,7 +52,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
 # 或
 CREATE USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
 
-## '123456' 是用户密码，可自由定义
+# '123456' 是用户密码，可自由定义
 ```
 
 构建
