@@ -1,0 +1,19 @@
+{
+  "name": "ts-mysql-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node build/app/server.js",
+    "build": "tsc",
+    "clean": "rmdir /s/q .\\build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mysql": "^2.15.20",
+    "@types/node": "^17.0.9",
+    "mysql": "^2.18.1"
+  }
+}

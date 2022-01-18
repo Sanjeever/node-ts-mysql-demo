@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "lib": [
+     "ES2017"
+    ],
+    "module": "commonjs",
+    "target": "ES2017",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "sourceMap": false,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "watch": false
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
