@@ -6,13 +6,14 @@
 
 ## 测试环境
 
-| OS           | Microsoft Windows [版本 10.0.19043.1466] |
-| ------------ | ---------------------------------------- |
-| Terminal     | PowerShell 7.2.1                         |
-| Node.js      | v16.13.1                                 |
-| npm          | 8.3.0                                    |
-| tsc          | Version 4.5.4                            |
-| MySQL Server | 8.0.27 MySQL Community Server - GPL      |
+|   Variable   |                  Value                   |
+| :----------: | :--------------------------------------: |
+|      OS      | Microsoft Windows [版本 10.0.19043.1466] |
+|   Terminal   |             PowerShell 7.2.1             |
+|   Node.js    |                 v16.13.1                 |
+|     npm      |                  8.3.0                   |
+|     tsc      |              Version 4.5.4               |
+| MySQL Server |   8.0.27 MySQL Community Server - GPL    |
 
 仅在以上环境测试，其他环境不保证可用性
 
