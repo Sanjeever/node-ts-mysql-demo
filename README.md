@@ -27,6 +27,12 @@
 npm install -g typescript
 ```
 
+安装依赖
+
+```shell
+npm install
+```
+
 进入 `src/config/db.ts` 填写相关配置
 
 ```typescript
