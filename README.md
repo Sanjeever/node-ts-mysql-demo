@@ -49,13 +49,18 @@ CREATE USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456'
 ## '123456' 是用户密码，可自由定义
 ```
 
+构建
+
+```shell
+npm run clean && npm run build
+```
 运行
 
 ```shell
-npm run build && npm run dev
+npm run dev
 ```
 
-如果不出以外将在 `console` 中输出类似如下内容：
+如果不出意外将在 `console` 中输出类似如下内容：
 
 ```mysql
 [
