@@ -5,7 +5,7 @@ const connection = mysql.createConnection(MYSQL_CONFIG);
 
 connection.connect();
 
-function execSQL(sql): Promise<() => {}> {
+function execSQL(sql: string): Promise<() => {}> {
     return new Promise(((resolve, reject) => {
         connection.query(sql, (err, result) => {
             if (err) {
