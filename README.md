@@ -58,6 +58,9 @@ CREATE USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456'
 构建
 
 ```shell
+npm run build
+# 首次构建不需要 npm run clean
+# 非首次构建建议使用
 npm run clean && npm run build
 ```
 运行
