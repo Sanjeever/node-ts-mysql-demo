@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node build/app/server.js",
-    "build": "tsc",
-    "clean": "rmdir /s/q .\\build"
+    "dev": "npm run build && node build/app/server.js",
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf  ./build/"
   },
   "keywords": [],
   "author": "",
