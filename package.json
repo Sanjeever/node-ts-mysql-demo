@@ -1,16 +1,16 @@
 {
   "name": "ts-mysql-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An example of a MySQL database connection written in TypeScript running on Node.js",
+  "main": "build/app/server.js",
   "scripts": {
     "dev": "npm run build && node build/app/server.js",
     "build": "npm run clean && tsc",
     "clean": "rm -rf  ./build/"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Sanjeev",
+  "license": "MIT",
   "dependencies": {
     "@types/mysql": "^2.15.20",
     "@types/node": "^17.0.9",
