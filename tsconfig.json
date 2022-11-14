@@ -4,7 +4,7 @@
     "module": "commonjs",
     "target": "ESNext",
     "rootDir": "./src",
-    "outDir": "./build",
+    "outDir": "./dist",
     "sourceMap": false,
     "strict": true,
     "esModuleInterop": true,
