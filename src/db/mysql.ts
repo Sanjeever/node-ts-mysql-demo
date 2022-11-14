@@ -1,13 +1,14 @@
 import * as mysql from "mysql";
+import { Connection, MysqlError } from "mysql";
 import { MYSQL_CONFIG } from "../config/db";
 
-const connection = mysql.createConnection(MYSQL_CONFIG);
+const connection: Connection = mysql.createConnection(MYSQL_CONFIG);
 
 connection.connect();
 
-function execSQL(sql: string): Promise<() => {}> {
-  return new Promise((resolve, reject) => {
-    connection.query(sql, (err, result) => {
+export function execSQL(sql: string) {
+  return new Promise((resolve: (value: any) => void, reject) => {
+    connection.query({ sql: sql }, (err: MysqlError, result: any) => {
       if (err) {
         reject(err);
         return;
@@ -16,5 +17,3 @@ function execSQL(sql: string): Promise<() => {}> {
     });
   });
 }
-
-export { execSQL };

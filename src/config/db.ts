@@ -1,4 +1,6 @@
-const MYSQL_CONFIG = {
+import { ConnectionConfig } from "mysql";
+
+const MYSQL_CONFIG: ConnectionConfig = {
   host: "localhost",
   user: "root",
   password: "",
