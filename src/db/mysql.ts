@@ -6,7 +6,7 @@ const connection: Connection = mysql.createConnection(MYSQL_CONFIG);
 
 connection.connect();
 
-export function execSQL(sql: string) {
+export const execSQL = (sql: string) => {
   return new Promise((resolve: (value: any) => void, reject) => {
     connection.query({ sql: sql }, (err: MysqlError, result: any) => {
       if (err) {
@@ -16,4 +16,4 @@ export function execSQL(sql: string) {
       resolve(result);
     });
   });
-}
+};
