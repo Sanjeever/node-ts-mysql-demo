@@ -5,6 +5,10 @@
     "target": "ESNext",
     "rootDir": "./src",
     "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*", "./dist/*"]
+    },
     "sourceMap": false,
     "strict": true,
     "esModuleInterop": true,
