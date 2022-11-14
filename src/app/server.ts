@@ -1,4 +1,4 @@
-import { execSQL } from "../db/mysql";
+import { execSQL } from "@/db/mysql";
 
 const sql: string = `select host,user from user;`;
 
