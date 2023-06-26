@@ -4,7 +4,7 @@
   "description": "An example of a MySQL database connection written in TypeScript running on Node.js",
   "scripts": {
     "dev": "tsx ./src/app/server.ts",
-    "build": "npm run clean && tsc",
+    "build": "rimraf  ./dist/ && tsc",
     "clean": "rimraf  ./dist/",
     "type-check": "tsc --noEmit",
     "lint": "prettier --write ./src/**/*.{js,ts,json}"
