@@ -65,9 +65,9 @@ npm run dev
 ## Thanks
 
 - [mysqljs/mysql](https://github.com/mysqljs/mysql)
+- [unjs/rc9](https://github.com/unjs/rc9)
 - [@types/mysql](https://www.npmjs.com/package/@types/mysql)
 - [@types/node](https://www.npmjs.com/package/@types/node)
-- [dividab/tsconfig-paths](https://github.com/dividab/tsconfig-paths)
 
 ## LICENSE
 
