@@ -23,16 +23,14 @@ npm install
 # yarn install
 ```
 
-进入 `src/config/db.ts` 填写相关配置
+进入 `.conf` 填写相关配置
 
-```typescript
-const MYSQL_CONFIG: ConnectionConfig = {
-  host: "localhost",
-  user: "root",
-  password: "",
-  port: 3306,
-  database: "mysql",
-};
+```conf
+host=localhost
+user=root
+password=
+port=3306
+database=mysql
 ```
 
 若使用 MySQL 8.0+ 需要在 MySQL 中执行以下命令，因为 MySQL 8.0+ 的 root 账户使用新密码哈希方法。使用 MySQL 8.0 以前的版本则不需要
