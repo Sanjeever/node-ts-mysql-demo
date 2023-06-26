@@ -1,19 +1,19 @@
-import * as mysql from "mysql";
-import { Connection, MysqlError } from "mysql";
-import { MYSQL_CONFIG } from "@/config/db";
+import * as mysql from 'mysql'
+import { Connection, MysqlError } from 'mysql'
+import { MYSQL_CONFIG } from '@/config/db'
 
-const connection: Connection = mysql.createConnection(MYSQL_CONFIG);
+const connection: Connection = mysql.createConnection(MYSQL_CONFIG)
 
-connection.connect();
+connection.connect()
 
 export const execSQL = (sql: string) => {
   return new Promise((resolve: (value: any) => void, reject) => {
     connection.query({ sql: sql }, (err: MysqlError, result: any) => {
       if (err) {
-        reject(err);
-        return;
+        reject(err)
+        return
       }
-      resolve(result);
-    });
-  });
-};
+      resolve(result)
+    })
+  })
+}
