@@ -8,7 +8,7 @@ connection.connect()
 
 export const execSQL = (sql: string) => {
   return new Promise((resolve: (value: any) => void, reject) => {
-    connection.query({ sql: sql }, (err: MysqlError, result: any) => {
+    connection.query({ sql }, (err: MysqlError, result: any) => {
       if (err) {
         reject(err)
         return
