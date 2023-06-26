@@ -1,6 +1,6 @@
 import * as mysql from 'mysql'
-import { Connection, MysqlError } from 'mysql'
 import { MYSQL_CONFIG } from '@/config/db'
+import type { Connection, MysqlError } from 'mysql'
 
 const connection: Connection = mysql.createConnection(MYSQL_CONFIG)
 

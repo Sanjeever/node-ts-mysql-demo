@@ -1,4 +1,4 @@
-import { ConnectionConfig } from 'mysql'
+import type { ConnectionConfig } from 'mysql'
 import { read } from 'rc9'
 
 const MYSQL_CONFIG: ConnectionConfig = read()
