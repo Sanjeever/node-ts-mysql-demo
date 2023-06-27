@@ -6,9 +6,9 @@
 
 |   Variable   |                  Value                   |
 | :----------: | :--------------------------------------: |
-|      OS      | Microsoft Windows [版本 10.0.19043.1466] |
-|   Terminal   |             PowerShell 7.2.7             |
-|   Node.js    |                 v16.13.1                 |
+|      OS      | Microsoft Windows [版本 10.0.22621.1848] |
+|   Terminal   |             PowerShell 7.3.4             |
+|   Node.js    |                 v18.16.0                 |
 |     npm      |                  8.5.5                   |
 | MySQL Server |   8.0.27 MySQL Community Server - GPL    |
 
