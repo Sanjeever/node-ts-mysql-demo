@@ -46,8 +46,8 @@ CREATE USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456'
 运行
 
 ```bash
-npm run dev
-# yarn dev
+npm run test
+# yarn test
 ```
 
 如果不出意外将在 `console` 中输出类似如下内容：
